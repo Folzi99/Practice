@@ -1,9 +1,9 @@
 name = input("Name: ")
 
-height_m = input("Height in metres: ")
+height_m = input("Height: ")
 h_1_m = float(height_m)
 
-weight_kg = input("Weight in kg: ")
+weight_kg = input("Weight: ")
 w_1_kg = float(weight_kg)
 
 bmi = (w_1_kg / (h_1_m ** 2))
